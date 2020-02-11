@@ -1,5 +1,5 @@
 # Objective
-This Dockerfile creates a docker image on amazon Linux.
+This Dockerfile creates a docker image on amazon Linux with specified tool and it can be used as a Jenkins Slave
 
 ## Installation
 
@@ -12,7 +12,8 @@ Packer
 Ansible 
 Git 
 Chef Inspec 
-Aws Cli 
+Aws Cli
+Jenkins Slave 
 ```
 
 ## Usage
