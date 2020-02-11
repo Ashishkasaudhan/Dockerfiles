@@ -9,6 +9,7 @@ Wget
 Python-pip
 Unzip
 Packer
+Ansible 
 Git 
 Chef Inspec 
 Aws Cli 
@@ -17,3 +18,4 @@ Aws Cli
 ## Usage
 
 Docker Build -t newimage .
+
