@@ -9,7 +9,7 @@ ENV ANSIBLE_STRATEGY=mitogen_linear \
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
-    python-pip unzip wget git  default-jdk && \
+    python-pip awscli unzip wget git  default-jdk && \
     pip install setuptools && \
     java -version 
 # install Packer
